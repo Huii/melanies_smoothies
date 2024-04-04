@@ -40,4 +40,4 @@ if ingredients_list:
     my_insert_stmt = """ insert into smoothies.public.orders(ingredients, name_on_order)
               values ('""" + ingredients_string + """','"""+name_on_order+ """')"""
     
-    session .execute(my_insert_stmt)
+    session.execute(my_insert_stmt)
